@@ -1,46 +1,41 @@
-$(function () {
-  // Cache variables for increased performance on devices with slow CPUs.
-  var flexContainer = $('div.flex-container')
-  var searchBox = $('.search-box')
-  var searchClose = $('.search-icon-close')
-  var searchInput = $('#search-input')
+var leftTab = document.getElementById('left-tab'),
+    rightTab = document.getElementById('right-tab');
 
-  // Menu Settings
-  $('.menu-icon, .menu-icon-close').click(function (e) {
-    e.preventDefault()
-    e.stopPropagation()
-    flexContainer.toggleClass('active')
-  })
+// 垃圾方法，该方法必须等页面加载玩才有效
+// window.onload = function(){
+//   btn[0].onmouseover=function() {
+//     leftTab.style.display="block";
+//     leftTab.setAttribute("class","rotateInUpLeft self-animated");
+//   }
+//   btn[0].onmouseout=function() {
+//     leftTab.setAttribute("class","rotateOutDownLeft self-animated");
+//     // leftTab.style.display="none";
+//   }
+//   btn[1].onmouseover=function() {
+//     rightTab.style.display="block";
+//     rightTab.setAttribute("class","rotateInUpRight self-animated");
+//   }
+//   btn[1].onmouseout=function() {
+//     rightTab.setAttribute("class","rotateOutDownRight self-animated");
+//     // leftTab.style.display="none";
+//   }
+//
+// }
 
-  // Click outside of menu to close it
-  flexContainer.click(function (e) {
-    if (flexContainer.hasClass('active') && e.target.tagName !== 'A') {
-      flexContainer.removeClass('active')
-    }
-  })
+function showLeft() {
+  leftTab.style.display="block";
+  leftTab.setAttribute("class","rotateInUpLeft self-animated");
+}
 
-  // Press Escape key to close menu
-  $(window).keydown(function (e) {
-    if (e.key === 'Escape') {
-      if (flexContainer.hasClass('active')) {
-        flexContainer.removeClass('active')
-      } else if (searchBox.hasClass('search-active')) {
-        searchBox.removeClass('search-active')
-      }
-    }
-  })
+function goneLeft() {
+  leftTab.setAttribute("class","rotateOutDownLeft self-animated");
+}
 
-  // Search Settings
-  $('.search-icon').click(function (e) {
-    e.preventDefault()
-    searchBox.toggleClass('search-active')
-    searchInput.focus()
+function showRight() {
+  rightTab.style.display="block";
+  rightTab.setAttribute("class","rotateInUpRight self-animated");
+}
 
-    if (searchBox.hasClass('search-active')) {
-      searchClose.click(function (e) {
-    		e.preventDefault()
-    		searchBox.removeClass('search-active')
-    	})
-    }
-  })
-})
+function goneRight() {
+  rightTab.setAttribute("class","rotateOutDownRight self-animated");
+}
