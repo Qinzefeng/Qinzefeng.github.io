@@ -28,8 +28,7 @@ a {
 blockquote {
     border-left: 4px solid $border-color;
     font-size: 14px;
-    /*font-family: $alt-font;*/
-    fnot-family: "Time News Roman";
+    font-family: $alt-font;
     margin-left: 1em;
     margin-right: 5em;
     padding-left: 15px;
@@ -39,8 +38,7 @@ blockquote {
 /*--- CODE FORMAT -----------------代码格式-----------------------------------*/
 
 tt, code, kbd, samp, pre {
-	/*font-family: $code-font;*/
-	font-family: "Time News Roman";
+	font-family: $code-font;
 	
 }
 
