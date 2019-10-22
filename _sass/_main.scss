@@ -344,7 +344,7 @@ body {
 	padding: 0;
 	width: 100%;
 	background-color: $body-color;
-	background-image: "images/2016-11-19/abstract-1.jpg";
+	background-image: url('images/2016-11-19/abstract-1.jpg');
     margin-top: 0px + $doc-line-height;
     font-size: 0px + $doc-font-size;
 }
