@@ -13,13 +13,11 @@ C. 这个博客很简单，在 Jekyll Theme 上找了个主题，修修改改一
 <hr>
 
 <p>
-Maecenas tempus ullamcorper ante, sed eleifend purus mollis a. Sed ut molestie eros. Etiam arcu mi, consequat id ligula nec, faucibus dictum tortor. Ut tempus felis non commodo luctus. Nunc ac ullamcorper leo. Suspendisse et lorem eu leo iaculis vehicula nec vel mauris. Nullam eget porta ante.
-</p>
-
+简单介绍下自己吧，我来自四川一个五线城市的一个五线小镇。非著名编程爱好者，不善言辞，中人之资；喜欢骑行、看书、独处，信奉...信奉什么呢，我自己也不太清楚，我今天可能因为一件小事信奉这个，明天又转而信奉另一个，信奉这东西没个准呢，信奉这东西因时因地而变。说的上是一个人做事的风格，对了！风格！我的风格是循规蹈矩，是太保守；谈不上中庸，就是不太会变通，有点犟。
 <p>
-Nunc tellus justo, pharetra sit amet blandit nec, mattis eu turpis. Praesent efficitur posuere nunc, non dapibus lectus placerat eget. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean a tincidunt velit. Nam ac ultricies metus. Morbi non erat ac nunc rutrum congue. Aliquam ultrices viverra felis quis pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+我是一个机械狗你敢信；到现在为止我还是很纳闷当初怎么就选择了机械这个大坑，那时候一定是脑壳有包，感觉到现在还没消，此时此刻我还在搬砖。思及过往，选择真的大过努力！后来无意中接触到了编程(PS:大学上的 C 语言当然不算)，感觉很神奇；脑中有个想法，借助一台电脑就可以实现。开始学习时由于受到十几载应试教育的深深毒害，各位看官应该明白——抱着一本书看完才肯去行动；结果可以预见，学习初期遭遇深深的挫败感实属预料之中。埋怨应试教育吗？不！好歹他让我有机会接触更大的世界。我想强调的是：不止编程，任何实用性的技能都是从做开始——Just do it!不需要你学习多少基础，跟着做就行了，不懂了再去学相关知识，完了再回来接着做就行了。其实这正是人所自然的学习进程，是最高效的学习方法；它能给予你持续不断的——借用一个比较专业的词语——正反馈，让你的金字塔越垒越高；所以现在遇到任何一个领域，我都可以立马干起来。这可以说是这几年研究生生涯唯一值得庆幸的收获。
 </p>
-
 <p>
-Phasellus pellentesque odio eget massa finibus, in aliquam lectus tincidunt. Suspendisse potenti. Fusce nisi ipsum, facilisis sed nunc non, congue gravida augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut elementum nulla. Ut iaculis elit ac lectus elementum, mollis porta ex ultricies. Maecenas pretium lectus quis vulputate feugiat. Curabitur vitae ex in eros eleifend volutpat vitae sed dui.
+<a href="https://blog.csdn.net/qq_40229981">我的 CSDN 博客地址</a>
+<a href="https://github.com/Qinzefeng">我的 GitHub 地址</a>
 </p>
