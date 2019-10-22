@@ -2,7 +2,7 @@
 layout: post
 categories: posts
 title: Sample Post
-subtitle: This is a test post.
+subtitle: This is a test post.    #副标题
 featured-image: /images/2016-11-19/abstract-1.jpg
 tags: [sample post]
 date-string: NOVEMBER 20, 2016

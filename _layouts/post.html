@@ -36,7 +36,7 @@
             <img src="{{ page.featured-image}}" style="width:100%">
             </div>
 
-            <!-- MAIN -->
+            <!-- MAIN 标题及副标题-->
             <h1 class="entry-title">
                 <a>{{ page.title }}</a>
             </h1>
@@ -44,17 +44,18 @@
                 <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ page.subtitle }}</a>
             </h3>
 
+            <!--- DIVIDING LINE 划线-->
             <hr>
 
-            <!-- POST CONTENT -->
+            <!-- POST CONTENT 发布内容-->
             <div class="entry-content">
                 {{ page.content }}
             </div>
 
-            <!--- DIVIDING LINE -->
+            <!--- DIVIDING LINE 划线-->
             <hr>
 
-            <!-- POST TAGS -->
+            <!-- POST TAGS 标签-->
             <div class="inline-tags">
                 <span>
                     {% for tag in page.tags %}
@@ -65,7 +66,7 @@
 
             <br>
 
-            <!-- POST DATE -->
+            <!-- POST DATE 帖子发布时间-->
             <div class="post-date">
                 {{ page.date-string }}
             </div>
