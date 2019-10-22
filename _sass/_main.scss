@@ -153,7 +153,7 @@ svg:not(:root) {
     a{
     	text-transform: uppercase;
         //color: $base-color;
-        color: lighten($base-color,30);
+        color: lighten(#ccc,40);
         font-weight: 100;
     }
     
