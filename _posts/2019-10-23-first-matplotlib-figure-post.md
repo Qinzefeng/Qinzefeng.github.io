@@ -35,9 +35,7 @@ date-string: OCTOBER 23, 2019
 ```  
 
 运行结果：   
-<div>
-	<img src="/imgages/2019/October/20191023-00.png">
-</div>  
+![](/images/2019/October/20191023-00.png)
 
 &emsp;&emsp;首先利用 figure() 创建一个木板，然后利用 add\_subplot() 在这张画板上创建了四张画纸(创建子图)；(2,2,1)分别表示创建 2 行 2 列共四个子图，1 代表放在第一个位置。如果只在画板上只画一张图，虽然可以不用创建 add\_subplot()；但我还是强烈建议你创建一张子图来绘图，利用 Figure.add\_subplot(1,1,1) 实现，这是一个好的习惯；我们后面会讲到。
   
