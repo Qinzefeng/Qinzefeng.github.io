@@ -11,7 +11,7 @@ date-string: OCTOBER 23, 2019
 	> 区分 plt 和 axes   
 	> 理解了上面两个，Matplotlib 画图步骤就明白了    
    
-# 区分 figure() 和 add_subplot()  
+### 区分 figure() 和 add_subplot()  
     
 <font color=#FF8C00>**figure()**</font>的作用相当于**<font color=#FF8C00>放画图纸的木板</font>**，我们不能在这个木板上直接作画，因为会把木板弄脏；所以创建好一个Figure后，还要 **<font color=#FF8C00>一张(多张)画图纸(利用add_subplot())</font>**，你可在木板上放一张画图纸，也可以放多张画图纸。    
 请看下面两个实验：     
