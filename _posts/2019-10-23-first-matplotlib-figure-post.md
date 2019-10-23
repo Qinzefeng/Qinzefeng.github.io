@@ -40,7 +40,7 @@ date-string: OCTOBER 23, 2019
 &emsp;&emsp;首先利用 figure() 创建一个木板，然后利用 add\_subplot() 在这张画板上创建了四张画纸(创建子图)；(2,2,1)分别表示创建 2 行 2 列共四个子图，1 代表放在第一个位置。如果只在画板上只画一张图，虽然可以不用创建 add\_subplot()；但我还是强烈建议你创建一张子图来绘图，利用 Figure.add\_subplot(1,1,1) 实现，这是一个好的习惯；我们后面会讲到。
   
 **另注：**  
- > 1. [figure()]("https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.figure.html") 和 [add_subplot()]("https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.figure.Figure.html#matplotlib.figure.Figure.add_subplot") 的参数设置，这里我不逐一详说，大家点链接看就行了。要用什么参数根据官方说明添加即。  
+ > 1. [figure()]("https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.figure") 和 [add_subplot()]("https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.figure.Figure.html#matplotlib.figure.Figure.add_subplot") 的参数设置，这里我不逐一详说，大家点链接看就行了。要用什么参数根据官方说明添加即。  
 > 2. Figure.add\_subplot() 和 plt.subplot() 作用一样，但是推荐使用 Figure.add\_subplot()。   
 > 3. add\_axes()可以用来绘制子图的子图。   
 > 4. `grid = plt.Gridspec()`实现更加复杂的绘图排列，实际上是对画板区域进行划分，使得没个区域放的子图的样子有所不同。参考链接：[plt.Gridspec()]("https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.gridspec.GridSpec.html#examples-using-matplotlib-gridspec-gridspec")
