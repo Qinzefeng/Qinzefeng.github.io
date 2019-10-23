@@ -6,7 +6,9 @@ url: # add your custom site url (format: https://example.com)
 
 future:      false  # publish future dated posts --  true, false (default)
 highlighter: rouge
-markdown:    markdown
+markdown:    kramdown
+karmdown:
+  input:      GFM
 gems:
   - jekyll-sitemap
   - jekyll-paginate
