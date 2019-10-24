@@ -79,5 +79,5 @@ date-string: OCTOBER 23, 2019
 > 4. 显示图片或者保存图片,etc.     
 
 **另注：**  
-> plt.imshow(image) or ax.imshow(image)，将一张图片显示在特定的子坐标图上；
+> plt.imshow(image) or ax.imshow(image)，将一张图片显示在特定的子坐标图上；    
 > plt.show() 在电脑上显示所有绘制的坐标图
