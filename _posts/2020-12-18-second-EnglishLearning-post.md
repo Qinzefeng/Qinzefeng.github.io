@@ -20,7 +20,7 @@ date-string: DECEMBER 18, 2020
   
 ![](/images/2020/December/20201218/20201218-00.png ) 
 <center>
-<img src="/images/2020/December/20201218/20201218-00.png" widith="50%"/>
+<img src="./images/2020/December/20201218/20201218-00.png" >
 </center>
 &emsp;&emsp; **figure()**的作用相当于**放画图纸的木板**，我们不能在这个木板上直接作画，因为会把木板弄脏；所以创建好一个Figure后，还要 一张(多张) **画图纸**(利用**add_subplot()**)，你可在木板上放一张画图纸，也可以放多张画图纸。    
 请看下面的实验：     
