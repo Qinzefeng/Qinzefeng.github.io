@@ -1,8 +1,8 @@
 ---
 layout: post  
 categories: posts   
-title: English Learning--描述电视节目    
-tags: [English Learning, Episode, Television Programme]   
+title: 关于如何走出迷惘状态的一点思考    
+tags: [迷惘, 积累, 节点, 分享 伙伴]   
 date-string: DECEMBER 18, 2020
 
 ---
