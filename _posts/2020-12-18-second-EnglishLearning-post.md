@@ -1,7 +1,8 @@
 ---
 layout: post  
 categories: posts   
-title: 关于如何走出迷惘状态的一点思考    
+title: 关于如何走出迷惘状态的一点思考  
+featured-image: /images/2020/December/20201218/20201218-000.jpg     
 tags: [迷惘, 积累, 节点, 分享 伙伴, 人生, 生活感悟]   
 date-string: DECEMBER 18, 2020
 
