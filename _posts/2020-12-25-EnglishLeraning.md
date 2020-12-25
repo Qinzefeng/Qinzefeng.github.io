@@ -1,7 +1,8 @@
 ---
 layout: post  
 categories: posts   
-title: ENGLISH LEARNING--Talk about TV Show  
+title: ENGLISH LEARNING--Talk about TV Show   
+featured-image: /images/2020/December/20201225/00.jpg  
 tags: [English Learning, episode]    
 date-string: DECEMBER 25, 2020
 
